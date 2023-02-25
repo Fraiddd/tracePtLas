@@ -1,3 +1,5 @@
 build/
 hist/
 *.spec
+temp.py
+dwg/*.bak
