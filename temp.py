@@ -34,7 +34,7 @@ def radioD():
     win.mainloop()
     return v.get()    
 # import time
-print(radioD())
+# print(radioD())
 # doc.SaveAs('c:/Data/Python/test.dwg')
 # acad.doc.Open('./dwg/Lambert93.dwg')
 # doc.SendCommand('(vla-open (vla-get-documents (vlax-get-acad-object)) "c:/Data/Python/tracePtLas/dwg/Lambert93.dwg")\n')
@@ -46,3 +46,4 @@ print(radioD())
 # acad.prompt('tracePtLas connected\n')
 # doc.close()
 # acad.prompt('tracePtLas connected\n')
+print(int((1000 / 33) / 100))
