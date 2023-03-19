@@ -1,3 +1,5 @@
+![](./img/illu.png)
+
 # tracePtLas
 
 tracePtLas is 2 smalls programs, tracePtLas2D (z=0) and tracePtLas3D, in Python 3.11 which traces in Autocad the points of the .las files.
@@ -38,7 +40,7 @@ pip install laspy
 
   - Choose .las files
 
-  - Wait a few minutes (9 minutes for 6 million points with a Intel Xeon CPU E3-1245 V2 @ 3.40GHz)
+  - Wait a few minutes
 
 
 ## License
