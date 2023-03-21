@@ -16,8 +16,7 @@ Point resolution is reduced. 1/12 for 3D, 1/32 for 2D
  
 ## Installation
 
-   - No installation for .exe
-   - for .py you have to install pyautocad and laspy
+   - You have to install pyautocad and laspy
 
 ```
 pip install pyautocad
