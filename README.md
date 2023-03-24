@@ -2,7 +2,7 @@
 
 # tracePtLas
 
-tracePtLas is 2 smalls programs, tracePtLas2D (z=0) and tracePtLas3D, in Python 3.11 which traces in Autocad the points of the .las files.
+tracePtLas is 2 smalls programs, tracePtLas2D (z=0) and tracePtLas3D, in Python 3.11 which traces in Autocad the points of the .las or .laz files.
 
 When you receive a large amount of point clouds from a Lidar, being able to batch process .las files is a must.
 
@@ -13,6 +13,8 @@ Insert a block containing points.
 Save each drawing under the name of the .las.
 
 Point resolution is reduced. 1/12 for 3D, 1/32 for 2D
+
+I preferred to do two programs because in one, i couldn't avoid a time-consuming condition in the main loop.
  
 ## Installation
 
@@ -20,7 +22,7 @@ Point resolution is reduced. 1/12 for 3D, 1/32 for 2D
 
 ```
 pip install pyautocad
-pip install laspy
+pip install laspy[lazrs,laszip]
 ```
 
 ## Requirements
@@ -37,7 +39,7 @@ pip install laspy
 
   - Start tracePtLas2D or tracePtLas3D
 
-  - Choose .las files
+  - Choose .las or .laz files
 
   - Wait a few minutes
 
