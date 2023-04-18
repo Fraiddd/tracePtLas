@@ -51,7 +51,7 @@ def tracePtLas(acad):
             # Counters.
             cptt = 0 # total number of points
             npt = 0 # final number of points
-            # Decreased density (1 point ou of 32)
+            # Decreased density (1 point out of 32)
             sens = 32
             # Las reading.
             las = laspy.read(fil)
